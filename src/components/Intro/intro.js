@@ -1,0 +1,21 @@
+import React from 'react';
+import './intro.css';
+//import bg from '../../assets/dheeraj.png';
+import btnImg from '../../assets/hireme.png';
+import {Link} from 'react-scroll';
+
+const Intro = () => {
+  return (
+    <section id="intro">
+        <div className="introContent">
+            <span className="hello">Hello,</span>
+            <span className="introText">I'm <span className="introName">Dheeraj</span> <br />Frontend Developer</span>
+            <p className="introPara">I am a skilled frontend developer with experience in creating <br /> visually appealing and user friendly websites.</p>
+            <Link><button className="btn"><img src={btnImg} alt="hireme" className="hireMeImg" />Hire Me</button></Link>
+        </div>
+
+    </section>
+  )
+}
+
+export default Intro;
