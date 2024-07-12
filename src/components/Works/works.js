@@ -10,7 +10,7 @@ export const Works = () => {
         </span>
 
         <div className="skillBlock">
-            <h3>SKILLS</h3>
+            <h2>SKILLS</h2>
             <div className="skills">
                 <div className="skill">
                     <p>HTML5</p>

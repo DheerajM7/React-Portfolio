@@ -11,15 +11,21 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_ke5jqi8', 'template_csm2r6g', form.current, '7rhgmWZTrnH-keJ4Q619J-keJ4Q619J')
-      .then((result) => {
-        console.log(result.text);
-        e.target.reset();
-        alert('Email Sent!');
-      }, (error) => {
-        console.log(error.text);
-        alert('Failed to send email. Please try again later.');
-      });
+    emailjs
+      .sendForm('service_ke5jqi8', 'template_csm2r6g', form.current, {
+        publicKey: 'ifnzjZP1o_bcsY0CC'
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          e.target.reset();
+          alert("Email Sent !");
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+          alert("Email Sent !");
+        },
+      );
   };
 
   return (

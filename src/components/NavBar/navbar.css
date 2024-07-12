@@ -1,10 +1,10 @@
 /* navbar.css */
 
 .navbar {
-    background: rgb(30, 30, 30);
+    background: rgb(50, 50, 50);
     height: 5rem;
     width: 100vw;
-    max-width: 75rem;
+    max-width: 120rem;
     margin: 0 auto;
     padding: 1rem 2rem;
     display: flex;
