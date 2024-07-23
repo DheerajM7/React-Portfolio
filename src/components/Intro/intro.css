@@ -11,9 +11,21 @@
     position: absolute;
     top: -4rem;
     z-index: -1;
-    right: 0;
+    right: -4rem;
     object-fit: cover;
-    height: 100vh;
+    height: 40vh;
+    margin-top: 20rem;
+}
+
+.bgbase{
+    position: absolute;
+    top: 0.3rem;
+    z-index: -1;
+    right: 3.5rem;
+    object-fit: cover;
+    height: 40vh;
+    margin-top: 20rem;
+    margin: none;
 }
 
 .introContent {
