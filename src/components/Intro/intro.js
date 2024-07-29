@@ -1,7 +1,7 @@
 import React from 'react';
 import './intro.css';
 import bg from '../../assets/bg.png';
-import bg2 from '../../assets/bg2.png';
+import bgbase from '../../assets/bgbase.png';
 import btnImg from '../../assets/hireme.png';
 import {Link} from 'react-scroll';
 
@@ -15,7 +15,7 @@ const Intro = () => {
             <Link><button className="btn"><img src={btnImg} alt="hireme" className="hireMeImg" />Hire Me</button></Link>
         </div>
         <img src={bg} alt="pic1" className="bg"></img>
-        <img src={bg2} alt="pic2" className="bgbase"></img>
+        <img src={bgbase} alt="pic2" className="bgbase"></img>
     </section>
   )
 }
