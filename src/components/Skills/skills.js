@@ -11,7 +11,7 @@ const Skills = () => {
             What I Do
         </span>
         <span className="skillDesc">
-            Experienced web designer skilled in both frontend and backend development, creating responsive, visually appealing, and robust websites. Passionate about innovative web technologies and best practices.
+            Experienced UI UX designer skilled in both frontend and backend development, creating responsive, visually appealing, and robust websites. Passionate about innovative web technologies and best practices.
         </span>
         <div className="skillBars">
             <div className="skillBar">
