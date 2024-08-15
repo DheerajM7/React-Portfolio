@@ -52,6 +52,9 @@ export const Works = () => {
                     <p>Bootstrap</p>
                 </div>
                 <div className="skill">
+                    <p>Mongo</p>
+                </div>
+                <div className="skill">
                     <p>Version Control</p>
                 </div>
                 <div className="skill">
@@ -68,6 +71,9 @@ export const Works = () => {
                 </div>
                 <div className="skill">
                     <p>Adobe</p>
+                </div>
+                <div className="skill">
+                    <p>Figma</p>
                 </div>
                 <div className="skill">
                     <p>Unity</p>

@@ -10,8 +10,8 @@ const Intro = () => {
     <section id="intro">
         <div className="introContent">
             <span className="hello">Hello,</span>
-            <span className="introText">I'm <span className="introName">Dheeraj</span> <br />Frontend Developer</span>
-            <p className="introPara">I am a skilled frontend developer with experience in creating <br /> visually appealing and user friendly websites.</p>
+            <span className="introText">I'm <span className="introName">Dheeraj</span> <br />UX Developer</span>
+            <p className="introPara">I am a skilled UI UX developer with experience in creating <br /> visually appealing and user friendly websites.</p>
             <Link><button className="btn"><img src={btnImg} alt="hireme" className="hireMeImg" />Hire Me</button></Link>
         </div>
         <img src={bg} alt="pic1" className="bg"></img>
